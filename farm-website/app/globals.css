@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-lora);
+  --font-body: var(--font-inter);
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: #f7f3ec;
+  color: #1c1917;
+}
+
+html {
+  scroll-behavior: smooth;
+}
